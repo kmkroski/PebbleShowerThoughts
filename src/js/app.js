@@ -72,19 +72,14 @@ function getPosts() {
   );
 }
 
-menu.on('accelTap', function (e) {  // Menu's shake to refresh
-  getPosts();
-});
+menu.on('accelTap', getPosts);  // Menu's shake to refresh
+home.on('accelTap', getPosts);  // Home's shake to refresh
 
 menu.on('select', function (e) {  // Menu's select button
   post.title(posts[e.itemIndex].title);
   post.subtitle(posts[e.itemIndex].description);
   post.body(posts[e.itemIndex].author);
   post.show();
-});
-
-home.on('accelTap', function (e) {  // Home's shake to refresh
-  getPosts();
 });
 
 home.on('click', 'select', function (e) {  // Home's Select button
