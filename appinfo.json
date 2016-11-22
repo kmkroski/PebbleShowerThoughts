@@ -11,7 +11,9 @@
             {
                 "file": "images/menu_icon.png",
                 "name": "IMAGE_MENU_ICON",
-                "type": "bitmap"
+                "type": "bitmap",
+                "memoryFormat": "1Bit",
+                "storageOptimization": "memory"
             },
             {
                 "file": "images/logo_splash.png",
