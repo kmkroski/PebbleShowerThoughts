@@ -32,7 +32,9 @@
                 "file": "images/menu_icon.png",
                 "menuIcon": true,
                 "name": "IMAGES_MENU_ICON_PNG",
-                "type": "bitmap"
+                "type": "bitmap",
+                "memoryFormat": "1Bit",
+                "storageOptimization": "memory"
             }
         ]
     },
