@@ -1,5 +1,5 @@
 /**
- * Reddit Test
+ * Shower Thoughts
  * K. M. Kroski
  * 21 Nov 2016
  */
